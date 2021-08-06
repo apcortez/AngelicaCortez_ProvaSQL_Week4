@@ -1,0 +1,20 @@
+1) Ho 2 tabelle Tabella1 e Tabella2. Se scrivo Tabella1 left join Tabella2 che risultati produce?
+b) Tutti i valori presenti in Tabella1 e tutti quelli in comune tra le 2 tabelle
+
+
+2) L’associazione “molti a molti” tra 2 tabelle come si traduce nel database?
+Si traduce inserendo una tabella di mezzo alle 2 tabelle con un'associazione uno a molti dalla tabella1 alla nuova tabella
+e un'associazione molti a uno dalla nuova tabella alla tabella2
+
+
+3) L’istruzione UPDATE è un comando di tipo:
+b) Data Manipulation Language (DML)
+
+
+4) La funzione "SUM(attributo)" restituisce:
+b) La somma dei valori posseduti dall'attributo
+
+
+5) È possibile scrivere una condizione del tipo “where Id= null”?
+b) No - dipende se Id non è considerato chiave primario e può essere nullabile sì. Ma di solito l'Id viene utilizzato 
+per identificare le primary key, di conseguenza non può essere null e deve essere unique
